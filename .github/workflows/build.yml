@@ -20,7 +20,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir source
-          unzip -q WellbeingAndroid-CloudBuild.zip -d source
+          unzip -q WellbeingAndroid-Analytics-Update.zip -d source
 
       - name: Set up Java
         uses: actions/setup-java@v4
